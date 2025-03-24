@@ -1,6 +1,6 @@
 # Terminal.shop MCP Server
 
-This project implements a Model Context Protocol (MCP) server for interacting with the Terminal.shop e-commerce platform. It allows AI assistants to seamlessly browse products, manage shopping carts, place orders, and handle subscriptions through Terminal.shop's API.
+This project implements a mcp server for interacting with the terminal.shop. It allows ai assistants to seamlessly browse products, manage shopping carts, place orders, and handle subscriptions through Terminal.shop's API.
 
 ## Features
 
@@ -15,7 +15,7 @@ This project implements a Model Context Protocol (MCP) server for interacting wi
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js
 - A Terminal.shop account
 - A Terminal.shop API token
 
@@ -120,19 +120,7 @@ This MCP server is built on top of the Terminal.shop API. For detailed informati
 - API tokens are stored in environment variables to prevent exposure
 - User data is handled according to Terminal.shop's security practices
 
-## Error Handling
-
-All API interactions include proper error handling to provide clear feedback when operations fail. Errors are logged to stderr for debugging purposes while maintaining the MCP protocol communication through stdout.
-
-## Contributing
-
-Contributions to improve the MCP server are welcome. Please ensure that any changes maintain compatibility with the Terminal.shop API specification.
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-
-- Terminal.shop for providing the e-commerce platform and API
-- The Model Context Protocol for enabling AI assistants to interact with external services
