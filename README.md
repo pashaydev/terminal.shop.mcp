@@ -22,24 +22,35 @@ This project implements a Model Context Protocol (MCP) server for interacting wi
 ### Installation
 
 1. Clone this repository
+
 2. Install dependencies:
    ```bash
    npm install
    ```
-3. Create a `.env` file with your Terminal.shop API token:
+4. Connect to Terminal.shop and create a new token:
+   ```bash
+   ssh terminal.shop -t tokens
    ```
-   TERMINAL_API_TOKEN=your_token_here
-   ```
 
-## Usage
+5. Open claude.app, go to settings, click 'developer' option and 'edit config':
 
-Start the MCP server:
-
-```bash
-node index.js
+```
+{
+  "mcpServers": {
+    "terminal-shop-mcp": {
+      "command": "node",
+      "args": ["path_to_folder/server.js"],
+      "env": {
+        "TERMINAL_API_TOKEN": "token here"
+      }
+    }
+  }
+}
 ```
 
-The server will communicate through stdin/stdout as per the MCP protocol specification.
+6. Restart claude.app, and make sure you see hammer icon under input
+
+7. Ask claude to get list of products or create a new address, subscription etc
 
 ## Available Resources
 

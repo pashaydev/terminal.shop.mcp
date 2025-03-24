@@ -7,9 +7,7 @@ import axios from "axios";
 // Load environment variables
 dotenv.config();
 
-// Check if token exists and log to stderr for debugging
-// const token = process.env.TERMINAL_BEARER_TOKEN;
-const token = "trm_live_33c8f6bd54c52aa1cb87";
+const token = process.env.TERMINAL_API_TOKEN;
 console.error("Token available:", !!token);
 
 // Create axios instance for Terminal API
