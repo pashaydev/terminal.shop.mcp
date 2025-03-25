@@ -2,6 +2,10 @@
 
 This project implements a mcp server for interacting with the terminal.shop. It allows ai assistants to seamlessly browse products, manage shopping carts, place orders, and handle subscriptions through Terminal.shop's API.
 
+<a href="https://glama.ai/mcp/servers/@pashaydev/terminal.shop.mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@pashaydev/terminal.shop.mcp/badge" alt="Terminal.shop Server MCP server" />
+</a>
+
 ## Features
 
 - **Product Management**: Browse and search Terminal.shop's coffee products
@@ -119,7 +123,6 @@ This MCP server is built on top of the Terminal.shop API. For detailed informati
 - The server handles sensitive payment information through secure URLs rather than directly processing card details
 - API tokens are stored in environment variables to prevent exposure
 - User data is handled according to Terminal.shop's security practices
-
 
 ## License
 
