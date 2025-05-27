@@ -1,5 +1,3 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/pashaydev-terminal-shop-mcp-badge.png)](https://mseep.ai/app/pashaydev-terminal-shop-mcp)
-
 # Terminal.shop MCP Server
 
 This project implements a mcp server for interacting with the terminal.shop. It allows ai assistants to seamlessly browse products, manage shopping carts, place orders, and handle subscriptions through Terminal.shop's API.
@@ -7,6 +5,8 @@ This project implements a mcp server for interacting with the terminal.shop. It 
 <a href="https://glama.ai/mcp/servers/@pashaydev/terminal.shop.mcp">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@pashaydev/terminal.shop.mcp/badge" alt="Terminal.shop Server MCP server" />
 </a>
+
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/pashaydev-terminal-shop-mcp-badge.png)](https://mseep.ai/app/pashaydev-terminal-shop-mcp)
 
 ## Features
 
