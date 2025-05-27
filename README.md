@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/pashaydev-terminal-shop-mcp-badge.png)](https://mseep.ai/app/pashaydev-terminal-shop-mcp)
+
 # Terminal.shop MCP Server
 
 This project implements a mcp server for interacting with the terminal.shop. It allows ai assistants to seamlessly browse products, manage shopping carts, place orders, and handle subscriptions through Terminal.shop's API.
